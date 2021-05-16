@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+#define MAX_LENGTH 100
+
+int main()
+{	/*For example the 2020 Subaru Outback has a max tank of 70 liters.
+	On a full tank the Subaru Outback can run 910km.*/
+	
+	/*Search or see vechile handbook to find the total amount of litres your
+	vechile can take. As well as how far your vechile can travel in Km on 
+	a single full tank.*/
+
+	char name[MAX_LENGTH] = { 0 };
+	int litres;
+	int kilometres;
+	int kml;
+	cout << "Hello World! ";
+	cout << "This is my FIRST C++ Program!!! \n";
+	cout << "This program calculates the number of your car's gas mileage\n";
+	cout << "Enter the name of your car here.";
+	cin.getline(name, MAX_LENGTH);
+	cout << "How many litres can your tank hold in total? \n";
+	cin >> litres;
+
+	cout << "How many kilometres can your car drive on a full tank? \n";
+	cin >> kilometres;
+
+	kml = kilometres / litres;
+
+	// Display number of kilometres the car can drive per litre of petrol.
+
+	/*In the example the 2020 Subaru Outback has a Kilometers 12.7543 per litre */
+
+	cout << "Your car is called " << name << ".\n";
+	cout << "The litres in total your car can hold is " << litres << ".\n";
+	cout << "You can run a total of " << kilometres << " kilometres per full tank. \n";
+	cout << "Your kilometres per each litre is " << kml << ".\n";
+
+
+	return(0);
+}
