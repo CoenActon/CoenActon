@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+	int centigrade;
+	int centigradetofahrenheit;
+	
+
+	cout << "Hello User! ";
+	cout << "This program calculates centigrade to fahrenheit degrees.\n";
+	cout << "Enter centigrade \n";
+	cin >> centigrade;
+
+	centigradetofahrenheit = (centigrade * 9 / 5) + 32;
+
+
+
+	cout << "Thank you user, fahrenheit is " << centigradetofahrenheit << ".\n";
+	return(0);
+}
