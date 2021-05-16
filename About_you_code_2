@@ -1,0 +1,147 @@
+// cin with strings
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+int main()
+{
+	system("Color F0");
+	int yes = 1;
+	int no = 0;
+	string fav_team;
+	string name;
+	string colour;
+	string record_or_not;
+	int answer;
+	int answer2;
+	int answer3;
+	string next_five_years;
+	string dream_place_to_live;
+	string dream_job;
+	string anything_in_the_world;
+
+	cout << "What's your name?\n";
+	cout << "\n";
+	cout << "*(single word answers only, otherwise program will not run properly) \n";
+	cout << "\n";
+	cin  >> name;
+	cout << "\n";
+	cout << "Hello " << name << ".\n";
+	cout << "\n";
+	cout << "What is your favourite team? ";
+	cin  >> fav_team;
+	cout << "\n";
+	cout << "I like " << fav_team << " too! \n";
+	cout << "\n";
+	cout << "What is your favourite colour? ";
+	cin  >> colour;
+	cout << "\n";
+	cout << colour << " is a great colour!\n";
+	cout << "\n";
+	cout << "Would you like it if I record your answers and put together a summary at the end?\n";
+	cout << "Answer with either 1 = yes or 0 = no. ";
+	cin  >> answer;
+		if (answer == 1)
+		{
+		system("Color F4"); // set color for the next print
+		cout << "\n";
+		cout << "------------------------------------------------------------------------------------------------------------------------\n";
+		cout << "\n";
+		cout << "Excellent! Then I will ask you some more questions.\n";
+		cout << "\n";
+		cout << "In the next five years where do you see yourself? \n";
+		cout << "\n";
+		cin  >> next_five_years;
+		cout << "\n";
+		cout << "Wonderful.\n";
+		cout << "\n";
+		cout << "Where is your dream place to live?\n ";
+		cout << "\n";
+		cin  >> dream_place_to_live;
+		cout << "\n";
+		cout << "Cool bananas! Just a few more questions.\n";
+		cout << "\n";
+		cout << "What would be your dream job? \n";
+		cout << "\n";
+		cin  >> dream_job;
+		cout << "\n";
+		cout << "Oh! nice!\n";
+		cout << "\n";
+		cout << "If you can have anything in the world what would it be? \n";
+		cout << "\n";
+		cin  >> anything_in_the_world;
+		cout << "\n";
+		cout << "Ok great I have made a summary of everthing you have told me.\n";
+		cout << "\n";
+		cout << "------------------------------------------------------------------------------------------------------------------------\n";
+		cout << "SUMMARY OF " << name << ":\n";
+		cout << "\n";
+		cout << "Your name is " << name << ".\n";
+		cout << "\n";
+		cout << "Your favourite team is " << fav_team << ".\n";
+		cout << "\n";
+		cout << "Your favourite colour is " << colour << ".\n";
+		cout << "\n";
+		cout << "You see yourself in the next five years " << next_five_years << ".\n";
+		cout << "\n";
+		cout << "Your dream place to live is " << dream_place_to_live << ".\n";
+		cout << "\n";
+		cout << "If you could have anything in the world you would have " << anything_in_the_world << ".\n";
+		cout << "\n";
+		cout << "------------------------------------------------------------------------------------------------------------------------\n";
+		cout << "========================================================================================================================\n";
+		cout << "====If you would like to see and run more of my codes visit: https://github.com/CoenActon/CoenActon go leave a like!====\n";
+		cout << "========================================================================================================================\n";
+		cout << "------------------------------------------------------------------------------------------------------------------------\n";
+		cout << "\n";
+		cout << "I hope you have enjoyed my program.\n";
+		cout << "Would you like to continue interacting with this program?\n";
+		cout << "\n";
+		cout << "Answer with either 1 = yes or 0 = no. ";
+		cin >> answer2;
+			if (answer2 == 1)
+			{
+				system("Color F1");
+				cout << "\n";
+				cout << "Great!! I am so appreciative that you like interacting with the program!\n";
+				cout << "Let me ask you a question.\n";
+				cout << "\n";
+				cout << "Do you like learning? \n";
+				cout << "\n";
+				cout << "Answer with either 1 = yes or 3 = no, 0 = exit program. " << endl;
+				cin >> answer3;
+				if (answer3 == 1)
+				{
+					cout << "\n";
+					cout << "Oh that is great! I love learning also.\n" << endl;
+
+
+				}
+
+				else if (answer > 1){
+			
+					cout << "Oh that isn't very good that you don't like learning. :( \n";
+					cout << "\n";
+					cout << "Why don't you like learning? \n";
+
+					}
+			
+					
+			}
+
+
+
+		}
+	
+	else
+	{
+	cout << "\n";
+	cout << "Ok goodbye.\n";
+	cout << "\n";
+	cout << "110101101000010110110011101111010100100011101001010011001110010101100100000001111010101010010101010010101011101101101001";
+	cout << "\n\n\n";
+
+	}
+	return 0;
+}
